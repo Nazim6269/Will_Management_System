@@ -28,7 +28,7 @@ interface AgentCardProps {
 
 export default function AgentCard({ agent, onEdit, onView, onDelete }: AgentCardProps) {
   return (
-    <div className="flex flex-col gap-3.5 rounded-[14px] border border-borderColor/18 bg-blue14 p-4 gradient-border-top-two">
+    <div className="flex flex-col gap-3.5 rounded-[14px] border border-borderColor/18 bg-blue14 p-4  -two">
       {/* Header */}
       <div className="flex items-center justify-between gap-2">
         <div className="flex items-center gap-2.5 min-w-0">

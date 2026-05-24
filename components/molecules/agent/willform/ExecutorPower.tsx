@@ -5,7 +5,7 @@ import { GenericInput } from "../../shared/GenericInput";
 
 const ExecutorPower = () => {
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2  ">
       <div className="flex items-center gap-2 ">
         {" "}
         <div className="w-9 h-9 rounded-lg bg-borderColor/15 border border-borderColor/18 flex items-center justify-center shrink-0">

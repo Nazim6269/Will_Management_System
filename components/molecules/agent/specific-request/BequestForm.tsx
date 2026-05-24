@@ -62,7 +62,7 @@ export default function BequestForm() {
   });
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2  ">
       <div className="flex flex-col gap-6">
         {fields.map((field, index) => (
           <div key={field.id}>

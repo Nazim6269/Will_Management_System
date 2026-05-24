@@ -35,7 +35,7 @@ export default function PrimaryBeneficiaryForm() {
   });
 
   return (
-    <div className="w-full flex flex-col gap-5 p-4 sm:p-6 border border-borderColor/18 rounded-2xl gradient-border-top ">
+    <div className="w-full flex flex-col gap-5 p-4 sm:p-6 border border-borderColor/18 rounded-2xl   ">
       {/* Page heading */}
       <h2 className="text-base font-bold text-gray96">Primary Beneficiary</h2>
 

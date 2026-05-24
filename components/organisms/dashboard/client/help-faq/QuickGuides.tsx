@@ -32,7 +32,7 @@ const QuickGuides = () => {
   ];
 
   return (
-    <div className="w-full max-w-md rounded-2xl border border-borderColor/18 overflow-hidden bg-blue14 gradient-border-top p-6 mt-6 ">
+    <div className="w-full max-w-md rounded-2xl border border-borderColor/18 overflow-hidden bg-blue14   p-6 mt-6 ">
       {/* Header */}
 
       <h2 className="text-blueF0 text-sm font-bold font-plus-jakarta mb-3">

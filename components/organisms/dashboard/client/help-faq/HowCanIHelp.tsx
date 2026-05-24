@@ -4,7 +4,7 @@ import { GenericSearch } from "@/components/atoms/GenericSearch";
 
 const HowCanIHelp = () => {
   return (
-    <div className="flex flex-col justify-center items-center gradient-border-top border-borderColor/18 bg-blue14 rounded-[1.125rem] space-y-4 pt-7.5 pb-12.5">
+    <div className="flex flex-col justify-center items-center   border-borderColor/18 bg-blue14 rounded-[1.125rem] space-y-4 pt-7.5 pb-12.5">
       <div className="space-y-2">
         <h2 className="text-blueF0 text-2xl font-extrabold">
           How can I help you?

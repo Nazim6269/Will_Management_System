@@ -54,7 +54,7 @@ export default function ImmediateDependantsForm() {
   const hasFamily = watch("hasFamily");
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2  ">
       {/* Heading */}
       <h2 className="text-white text-xl font-bold mb-1">
         <span className="font-bold text-[1.25rem]">Part 1B</span>{" "}

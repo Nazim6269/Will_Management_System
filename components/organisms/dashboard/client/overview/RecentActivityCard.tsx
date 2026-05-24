@@ -70,7 +70,7 @@ export default function RecentActivityCard({
   const displayActivities = activities || defaultActivities;
 
   return (
-    <div className="w-full gradient-border-top rounded-2xl border border-borderColor/18 bg-blue14 p-6 mt-4">
+    <div className="w-full   rounded-2xl border border-borderColor/18 bg-blue14 p-6 mt-4">
       <h2 className="mb-3 text-base font-bold leading-6 text-blueF0">
         Recent Activity
       </h2>

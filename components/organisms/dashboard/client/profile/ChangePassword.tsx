@@ -18,7 +18,7 @@ export default function ChangePasswordForm() {
   const { register, handleSubmit, watch } = useForm<FormValues>();
 
   return (
-    <div className="w-full flex flex-col gap-3 gradient-border-top rounded-2xl border border-borderColor/18 bg-blue14 p-5 sm:p-6">
+    <div className="w-full flex flex-col gap-3   rounded-2xl border border-borderColor/18 bg-blue14 p-5 sm:p-6">
       {/* Page heading */}
       <h2 className="text-base font-bold text-gray96">Primary Beneficiary</h2>
 

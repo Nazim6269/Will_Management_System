@@ -58,7 +58,7 @@ export default function QuickActionsCard({
   };
 
   return (
-    <div className="w-full gradient-border-top rounded-2xl border border-borderColor/18 bg-blue14 p-5 mt-4">
+    <div className="w-full   rounded-2xl border border-borderColor/18 bg-blue14 p-5 mt-4">
       {/* Header */}
       <h2 className="mb-4 text-base font-bold leading-6 text-blueF0">
         Quick Actions

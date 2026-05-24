@@ -41,7 +41,7 @@ export default function DocumentInfoCard({
   onEmail,
 }: DocumentInfoCardProps) {
   return (
-    <div className="w-full gradient-border-top rounded-2xl border border-borderColor/18 bg-blue14 p-5">
+    <div className="w-full   rounded-2xl border border-borderColor/18 bg-blue14 p-5">
       {/* Header */}
       <h2 className="mb-4 text-base font-bold leading-6 text-blueF0">
         Document Info

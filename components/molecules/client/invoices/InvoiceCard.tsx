@@ -15,7 +15,7 @@ export default function InvoiceCard({
   const isUnpaid = invoice.status === "unpaid";
 
   return (
-    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 px-5 py-5 mb-4 gradient-border-top">
+    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 px-5 py-5 mb-4  ">
       {/* Header */}
       <div className="flex items-start justify-between mb-4">
         <div>

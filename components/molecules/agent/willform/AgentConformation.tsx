@@ -4,7 +4,7 @@ import { GenericInput } from "../../shared/GenericInput";
 
 const AgentConformation = () => {
   return (
-    <div className="space-y-6 w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2 gradient-border-top mb-6">
+    <div className="space-y-6 w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2   mb-6">
       <div className="space-y-1.5">
         <h2 className="text-gray96  font-medium text-base tracking-[-0.3px] leading-[25.6px]">
           Agent confirmation

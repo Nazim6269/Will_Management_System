@@ -67,7 +67,7 @@ export default function FinalReviewChecklist() {
   const allConfirmed = confirmedCount === total;
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2  ">
       {/* Heading */}
       <div className="flex items-center gap-2.5 mb-1.5">
         <div className="w-9 h-9 rounded-lg bg-blue66/20 border border-blue66/30 flex items-center justify-center shrink-0">

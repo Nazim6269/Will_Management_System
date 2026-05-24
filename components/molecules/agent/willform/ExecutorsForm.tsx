@@ -54,7 +54,7 @@ export default function ExecutorsForm() {
     "text-white text-sm font-medium mb-[0.438rem] leading-[19.2px]";
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2  ">
       {/* Heading */}
       <div className="flex items-center gap-3 mb-2">
         <span className="w-9 h-9 rounded-lg bg-borderColor/15 border border-borderColor/18 flex items-center justify-center shrink-0">

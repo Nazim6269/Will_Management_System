@@ -22,7 +22,7 @@ const QuickLinks = () => {
   ];
 
   return (
-    <div className="w-full rounded-2xl border border-borderColor/18 overflow-hidden bg-blue14 gradient-border-top shadow-2xl mt-6">
+    <div className="w-full rounded-2xl border border-borderColor/18 overflow-hidden bg-blue14   shadow-2xl mt-6">
       {/* Header */}
       <div className="p-5 pb-2">
         <h2 className="text-blueF0 text-sm font-semibold ">

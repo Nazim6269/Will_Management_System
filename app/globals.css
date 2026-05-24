@@ -419,60 +419,7 @@ body {
   @apply text-gray96 text-base font-bold leading-6 tracking-[-0.3px];
 }
 
-.gradient-border-top {
-  position: relative;
-}
 
-.gradient-border-top::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 8px;
-  background: linear-gradient(90deg, var(--blue66) 0%, var(--cyan52) 100%);
-  border-radius: inherit;
-  -webkit-mask: linear-gradient(#fff 0 0) top / 100% 2px no-repeat;
-  mask: linear-gradient(#fff 0 0) top / 100% 2px no-repeat;
-  pointer-events: none;
-  z-index: 10;
-}
-
-.gradient-border-top-two {
-  position: relative;
-}
-
-.gradient-border-top-two::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 8px;
-  background: linear-gradient(
-    90deg,
-    #f59e0b 0%,
-    #eb9c40 7.14%,
-    #e19a5a 14.29%,
-    #d8976e 21.43%,
-    #ce947f 28.57%,
-    #c5918e 35.71%,
-    #bc8d9b 42.86%,
-    #b389a8 50%,
-    #aa85b5 57.14%,
-    #a180c0 64.29%,
-    #997acc 71.43%,
-    #9174d6 78.57%,
-    #896de1 85.71%,
-    #8265ec 92.86%,
-    #7b5cf6 100%
-  );
-  border-radius: inherit;
-  -webkit-mask: linear-gradient(#fff 0 0) top / 100% 2px no-repeat;
-  mask: linear-gradient(#fff 0 0) top / 100% 2px no-repeat;
-  pointer-events: none;
-  z-index: 10;
-}
 
 .generate-will {
   border-radius: 18px;

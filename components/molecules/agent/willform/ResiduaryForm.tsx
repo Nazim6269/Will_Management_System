@@ -49,7 +49,7 @@ export default function ResiduaryBeneficiaryForm() {
   const { fields, append } = useFieldArray({ control, name: "beneficiaries" });
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 rounded-b-2xl border-t-2  ">
       {/* Heading */}
       <div className="flex items-center gap-2 mb-2">
         <h2 className="text-gray96 text-base font-bold">

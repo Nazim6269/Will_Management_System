@@ -19,7 +19,7 @@ export default function AppointmentCard({
   const sc = statusConfig[appt.status];
 
   return (
-    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 p-4 sm:p-5 mb-3 gradient-border-top">
+    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 p-4 sm:p-5 mb-3  ">
       {/* Top Section */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
         {/* Date */}

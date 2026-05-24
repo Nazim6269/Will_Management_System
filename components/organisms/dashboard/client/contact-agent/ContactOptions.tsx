@@ -28,7 +28,7 @@ const ContactOptions = () => {
   ];
 
   return (
-    <div className="w-full rounded-2xl border border-borderColor/18 overflow-hidden p-4 bg-blue14 gradient-border-top mt-6">
+    <div className="w-full rounded-2xl border border-borderColor/18 overflow-hidden p-4 bg-blue14   mt-6">
       <div className="flex items-center gap-4">
         <div
           className={`p-3 rounded-xl border ${options[0].iconBorder} ${options[0].iconBg}`}

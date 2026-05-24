@@ -42,7 +42,7 @@ export default function NeedsAttentionCard({
   items = defaultItems,
 }: NeedsAttentionCardProps) {
   return (
-    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 p-5 gradient-border-top-two">
+    <div className="w-full rounded-2xl border border-borderColor/18 bg-blue14 p-5  -two">
       {/* Header */}
       <div className="mb-4 flex items-center gap-3">
           <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-[10px] border border-orange245/20 bg-orange245/10">

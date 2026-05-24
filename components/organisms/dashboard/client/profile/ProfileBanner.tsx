@@ -33,7 +33,7 @@ export default function ClientProfileBanner({
   stats = defaultStats,
 }: ClientProfileBannerProps) {
   return (
-    <div className="w-full gradient-border-top rounded-2xl border border-borderColor/18 bg-blue14 p-5 sm:p-6">
+    <div className="w-full   rounded-2xl border border-borderColor/18 bg-blue14 p-5 sm:p-6">
       <User
         name={name}
         email={email}

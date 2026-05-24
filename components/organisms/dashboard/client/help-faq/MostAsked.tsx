@@ -10,7 +10,7 @@ const MostAsked = () => {
   ];
 
   return (
-    <div className="w-full max-w-md rounded-2xl border border-blue16 overflow-hidden bg-blue14 gradient-border-top p-4 ">
+    <div className="w-full max-w-md rounded-2xl border border-blue16 overflow-hidden bg-blue14   p-4 ">
       {/* Header */}
       <div className="mb-4.f">
         <h2 className="text-blueF0 text-sm font-bold font-plus-jakarta">

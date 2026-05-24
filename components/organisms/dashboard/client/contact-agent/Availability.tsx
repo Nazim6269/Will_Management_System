@@ -13,7 +13,7 @@ const availabilityData = [
 
 const Availability = () => {
   return (
-    <div className="w-full rounded-2xl border border-blue16 overflow-hidden p-4 bg-blue14 gradient-border-top">
+    <div className="w-full rounded-2xl border border-blue16 overflow-hidden p-4 bg-blue14  ">
       <h1 className="text-sm font-bold text-blueF0 mb-4">Availability</h1>
 
       {availabilityData.map((item, index) => {

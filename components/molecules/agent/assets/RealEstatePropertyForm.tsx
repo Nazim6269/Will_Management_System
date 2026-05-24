@@ -73,7 +73,7 @@ export default function RealEstatePropertyForm() {
 
 
   return (
-    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2 gradient-border-top">
+    <div className="w-full bg-blue14 border border-borderColor/18 p-4 sm:p-7 mt-4 mb-6 rounded-b-2xl border-t-2  ">
       {/* Heading */}
       <h2 className="text-white text-base font-bold tracking-[-0.3px] leading-[25.6px] mb-1">
         Real Estate &amp; Property

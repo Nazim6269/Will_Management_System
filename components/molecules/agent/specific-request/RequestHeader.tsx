@@ -3,7 +3,7 @@ import React from "react";
 
 const RequestHeader = () => {
   return (
-    <div className="flex justify-between items-center gradient-border-top p-5 rounded-2xl bg-blue14 border border-borderColor/18">
+    <div className="flex justify-between items-center   p-5 rounded-2xl bg-blue14 border border-borderColor/18">
       <div className="space-y-[0.688rem]  max-w-170">
         {" "}
         <h2 className="text-xl md:text-2xl  text-gray96 font-extrabold leading-[124%] tracking-[-1%]">
