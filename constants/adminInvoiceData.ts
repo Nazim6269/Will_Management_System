@@ -1,0 +1,68 @@
+import { InvoiceStatus } from "@/types/tableTypes";
+
+export const INVOICES_DATA = [
+  {
+    invoice: "INV-0025",
+    client: "James Thornton",
+    agent: "Robert Taylor",
+    amount: 149,
+    dueDate: "15 Apr 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "James Thornton",
+    agent: "David Clarke",
+    amount: 152,
+    dueDate: "11 Apr 2026",
+    status: "Unpaid" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "Sarah Mitchell",
+    agent: "Emma Williams",
+    amount: 436,
+    dueDate: "08 Apr 2026",
+    status: "Pending" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "James Thornton",
+    agent: "Michael Brown",
+    amount: 235,
+    dueDate: "03 Apr 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "Emily Clarke",
+    agent: "Jennifer Scott",
+    amount: 526,
+    dueDate: "15 Mar 2026",
+    status: "Overdue" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "Sarah Mitchell",
+    agent: "Robert Taylor",
+    amount: 119,
+    dueDate: "28 Feb 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "Emily Clarke",
+    agent: "Emma Williams",
+    amount: 216,
+    dueDate: "24 Feb 2026",
+    status: "Unpaid" as InvoiceStatus,
+  },
+  {
+    invoice: "INV-0025",
+    client: "James Thornton",
+    agent: "Michael Brown",
+    amount: 845,
+    dueDate: "16 Jan 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+];

@@ -1,0 +1,68 @@
+import { InvoiceStatus } from "@/types/tableTypes";
+
+export const ALL_WILL_DOCUMENTS_DATA = [
+  {
+    reference: "WILL-0038",
+    client: "James Thornton",
+    agent: "Robert Taylor",
+    plan: "Basic",
+    generated: "15 Apr 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "James Thornton",
+    agent: "David Clarke",
+    plan: "Standard",
+    generated: "11 Apr 2026",
+    status: "Unpaid" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "Sarah Mitchell",
+    agent: "Emma Williams",
+    plan: "Premium",
+    generated: "08 Apr 2026",
+    status: "Pending" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "James Thornton",
+    agent: "Michael Brown",
+    plan: "Standard",
+    generated: "03 Apr 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "Emily Clarke",
+    agent: "Jennifer Scott",
+    plan: "Premium",
+    generated: "15 Mar 2026",
+    status: "Overdue" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "Sarah Mitchell",
+    agent: "Robert Taylor",
+    plan: "Basic",
+    generated: "28 Feb 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "Emily Clarke",
+    agent: "Emma Williams",
+    plan: "Basic",
+    generated: "24 Feb 2026",
+    status: "Unpaid" as InvoiceStatus,
+  },
+  {
+    reference: "WILL-0038",
+    client: "James Thornton",
+    agent: "Michael Brown",
+    plan: "Standard",
+    generated: "16 Jan 2026",
+    status: "Paid" as InvoiceStatus,
+  },
+];
