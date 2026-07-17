@@ -1,8 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Will Management System
 
-## Getting Started
+A modern, full-featured web application for managing wills and estate planning. Built with Next.js, React, and TypeScript, featuring a responsive UI with Tailwind CSS and comprehensive state management.
 
-First, run the development server:
+## 🎯 Features
+
+- **Modern UI**: Built with Shadcn components and Tailwind CSS for a sleek, responsive design
+- **State Management**: Redux Toolkit for predictable state management
+- **Form Handling**: React Hook Form with Zod validation for robust form management
+- **API Integration**: Axios with retry logic for reliable backend communication
+- **Real-time Updates**: React Query for efficient server state management
+- **Animations**: Framer Motion for smooth, engaging user interactions
+- **Icons**: Lucide React for a comprehensive icon library
+- **Toast Notifications**: Sonner for elegant notification system
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Nazim6269/Will_Management_System.git
+cd Will_Management_System
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +52,123 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The app supports hot reloading—edit files and see changes instantly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build & Deployment
 
-## Learn More
+Build for production:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Linting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Check code quality:
 
-## Deploy on Vercel
+```bash
+npm run lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Core
+- **Next.js** 16.2.4 - React framework with App Router
+- **React** 19.2.4 - UI library
+- **TypeScript** 5 - Type safety
+
+### State & Data Management
+- **Redux Toolkit** 2.11.2 - Predictable state container
+- **React Query** 5.100.9 - Server state management
+- **React Hook Form** 7.75.0 - Efficient form handling
+- **Zod** 4.4.2 - TypeScript-first schema validation
+
+### UI & Styling
+- **Tailwind CSS** 4 - Utility-first CSS framework
+- **Shadcn** 4.6.0 - High-quality React components
+- **Framer Motion** 12.38.0 - Animation library
+- **Lucide React** 1.14.0 - Icon library
+- **Sonner** 2.0.7 - Toast notifications
+- **Radix UI** 1.4.3 - Accessible component primitives
+
+### API & Data
+- **Axios** 1.16.0 - HTTP client
+- **Axios Retry** 4.5.0 - Automatic retry logic
+
+## 📁 Project Structure
+
+```
+will-management-system/
+├── app/                      # Next.js app directory
+│   ├── page.tsx             # Home page
+│   └── ...                  # Other pages and routes
+├── components/               # Reusable React components
+├── lib/                      # Utilities and helpers
+├── public/                   # Static assets
+├── styles/                   # Global styles
+└── package.json             # Dependencies
+```
+
+## 🛠️ Configuration
+
+### Tailwind CSS
+Configured with Tailwind CSS 4 and PostCSS for modern styling capabilities.
+
+### ESLint
+Code quality is maintained with ESLint 9.
+
+### Type Safety
+Full TypeScript support ensures type safety throughout the application.
+
+## 🚢 Deployment
+
+### Deploy on Vercel (Recommended)
+
+The easiest way to deploy your Next.js app:
+
+1. Push your code to GitHub
+2. Import the repository on [Vercel](https://vercel.com/new)
+3. Vercel will automatically detect Next.js and configure build settings
+4. Click Deploy
+
+Environment variables can be set in the Vercel dashboard.
+
+### Other Deployment Options
+
+This project can be deployed on any platform that supports Node.js:
+- Docker
+- Traditional servers
+- Cloud platforms (AWS, Google Cloud, Azure, etc.)
+
+## 📚 Learn More
+
+### Next.js
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub](https://github.com/vercel/next.js)
+
+### Related Resources
+- [React Documentation](https://react.dev)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Redux Toolkit Documentation](https://redux-toolkit.js.org)
+- [React Query Documentation](https://tanstack.com/query/latest)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📧 Support
+
+For support, please open an issue on the GitHub repository.
+
+---
+
+**Built with ❤️ by Nazim6269**
